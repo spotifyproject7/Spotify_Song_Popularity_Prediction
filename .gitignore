@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Env + secrets
+.env
+
+# Large data files
+*.csv
+*.zip
+
+# Model artifacts (optional: keep if small & needed)
+# features.pkl
+# xgb_spotify_model.json
+
+# Logs
+*.log
